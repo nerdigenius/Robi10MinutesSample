@@ -1,0 +1,62 @@
+[
+    {
+        "type": "video",
+        "name": "video 1"
+    },
+    {
+        "type": "chapter",
+        "name": "chapter 1",
+        "childItems": [
+            {
+                "type": "video",
+                "name": "video 1"
+            },
+            {
+                "type": "document",
+                "name": "Document 1"
+            },
+            {
+                "type": "video",
+                "name": "video 2"
+            },
+            {
+                "type": "document",
+                "name": "Document 2"
+            }
+        ]
+    },
+    {
+        "type": "document",
+        "name": "Document 2",
+        "author": "Neil Patrick"
+    },
+    {
+        "type": "chapter",
+        "name": "chapter 2",
+        "childItems": [
+            {
+                "type": "video",
+                "name": "video 6"
+            },
+            {
+                "type": "document",
+                "name": "Document 7",
+                "author": "John Doe"
+            },
+            {
+                "type": "video",
+                "name": "video 8"
+            }
+
+        ]
+    },
+    {
+        "type": "document",
+        "name": "Document 3",
+        "author": "Prashant Meheta"
+    },
+    {
+        "type": "audio",
+        "name": "audio 1"
+    }
+]
