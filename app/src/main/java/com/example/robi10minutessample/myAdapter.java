@@ -114,7 +114,7 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.CustomViewHolder> 
         holder.textView.setText(sampleItem.getMtext1());
         if(sampleItem.getType().equals("document"))
         {
-            holder.author.setText(sampleItem.getAuthor());
+            holder.author.setText("Author: "+sampleItem.getAuthor());
             holder.author.setVisibility(View.VISIBLE);
         }
 
